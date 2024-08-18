@@ -1,6 +1,6 @@
 # Rust WASM requestAnimationFrame() template
 
-This is a template for a Rust / WASM project which needs to use `requestAnimationFrame()` to do animations on the HTML canvas.
+This is a template for a Rust / WASM project which needs to call `requestAnimationFrame()` from within rust code in order to animate HTML canvas.
 The template is based on the [brilliant example](https://gist.github.com/sifyfy/2802e0e7f072c02b0268b123c73779e9) by [sifyfy](https://gist.github.com/sifyfy).
 
 ## Live demo
