@@ -8,9 +8,18 @@ The template is based on the [brilliant example](https://gist.github.com/sifyfy/
 
 
 ## How to build
-```bash
+```sh
 wasm-pack build --target web
 ```
+
+
+## How to run
+```sh
+cd rust-wasm-raf-template
+python3 -m http.server
+```
+Then open your browser and go to `http://localhost:8000`.
+
 
 ## Keywords
 Rust, wasm, WebAssembly requestAnimationFrame, requestAnimationFrame(), request_animation_frame, request_animation_frame() canvas, animation, template
