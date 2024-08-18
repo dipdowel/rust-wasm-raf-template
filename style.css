@@ -1,0 +1,79 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: #22aa22;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#demo_heading {
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+#demo_screen{
+    background: #000000;
+}
+
+.restart-button {
+    background-color: #025c06;
+    border: none;
+    color: #72ff6b;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+    background-color: #317733;
+    color: #fff;
+}
+
+
+/* Paragraph styling */
+p {
+    margin-bottom: 20px;
+    color: #72ff6b; /* Light green text color */
+    font-size: 18px;
+}
+
+/* Hyperlink styling */
+a {
+    color: #d6cd2a; /* Medium green color */
+    text-decoration: none; /* Remove underline */
+    /*font-weight: bold; !* Bold text for links *!*/
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hyperlink hover effect */
+a:hover {
+    color: #fff; /* Change to white on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.content{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background: #001400;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.code {
+    background-color: #0b300c;
+    color: #72ff6b;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 96%;
+}

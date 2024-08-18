@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASM Hello World</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+</head>
+<body>
+
+<script type="module">
+    import init, { main   } from './pkg/rust_wasm_raf_template.js';
+    init().then(() => {
+        main();
+    });
+</script>
+
+<div class="content">
+    <h3 id="demo_heading"> Default</h3>
+    <canvas id="demo_screen" width="800" height="600"></canvas>
+    <br />
+    <button class="restart-button" onclick="reloadPage()">Restart</button>
+    <p>
+        Jump to the <a href="https://github.com/dipdowel/rust-wasm-raf-template" target="_blank">source code</a>
+    </p>
+    <p>
+        As of August 2024, finding a working example of a Rust &rarr; WebAssembly project with animation that uses <span class="code">requestAnimationFrame()</span>
+        (RAF) turned out to be tricky, so I decided to create one myself.
+        This is a live demo for a template project can give a head start to anyone who wants to build a web project in Rust with animated HTML canvas.
+
+        Check it out on <a href="https://github.com/dipdowel/rust-wasm-raf-template" target="_blank">github</a>.
+
+    </p>
+
+</div>
+</body>
+</html>
