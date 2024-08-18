@@ -9,13 +9,15 @@ The template is based on the [brilliant example](https://gist.github.com/sifyfy/
 
 ## How to build
 ```sh
+git clone git@github.com:dipdowel/rust-wasm-raf-template.git
+cd rust-wasm-raf-template
 wasm-pack build --target web
 ```
 
 
 ## How to run
-```sh
-cd rust-wasm-raf-template
+While in `rust-wasm-raf-template`:
+```sh 
 python3 -m http.server
 ```
 Then open your browser and go to `http://localhost:8000`.
